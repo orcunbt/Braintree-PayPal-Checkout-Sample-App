@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E1C06D1C690DB9008D1019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C06C1C690DB9008D1019 /* main.m */; };
+		44E1C0701C690DB9008D1019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C06F1C690DB9008D1019 /* AppDelegate.m */; };
+		44E1C0731C690DB9008D1019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C0721C690DB9008D1019 /* ViewController.m */; };
+		44E1C0761C690DB9008D1019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E1C0741C690DB9008D1019 /* Main.storyboard */; };
+		44E1C0781C690DB9008D1019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E1C0771C690DB9008D1019 /* Assets.xcassets */; };
+		44E1C07B1C690DB9008D1019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E1C0791C690DB9008D1019 /* LaunchScreen.storyboard */; };
+		44E1C0861C690DB9008D1019 /* Braintree_PayPal_Sample_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C0851C690DB9008D1019 /* Braintree_PayPal_Sample_AppTests.m */; };
+		44E1C0911C690DB9008D1019 /* Braintree_PayPal_Sample_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C0901C690DB9008D1019 /* Braintree_PayPal_Sample_AppUITests.m */; };
+		44E1C09F1C690E85008D1019 /* paypal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44E1C09E1C690E85008D1019 /* paypal.jpg */; };
+		EE5E8A1C79E50897AE46EC21 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 700D9475E40A62028F5838ED /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E1C0821C690DB9008D1019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E1C0601C690DB9008D1019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E1C0671C690DB9008D1019;
+			remoteInfo = "Braintree PayPal Sample App";
+		};
+		44E1C08D1C690DB9008D1019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E1C0601C690DB9008D1019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E1C0671C690DB9008D1019;
+			remoteInfo = "Braintree PayPal Sample App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02116985F77B387194320D1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		44E1C0681C690DB9008D1019 /* Braintree PayPal Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Braintree PayPal Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E1C06C1C690DB9008D1019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44E1C06E1C690DB9008D1019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44E1C06F1C690DB9008D1019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44E1C0711C690DB9008D1019 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44E1C0721C690DB9008D1019 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44E1C0751C690DB9008D1019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44E1C0771C690DB9008D1019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E1C07A1C690DB9008D1019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44E1C07C1C690DB9008D1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E1C0811C690DB9008D1019 /* Braintree PayPal Sample AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Braintree PayPal Sample AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E1C0851C690DB9008D1019 /* Braintree_PayPal_Sample_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Braintree_PayPal_Sample_AppTests.m; sourceTree = "<group>"; };
+		44E1C0871C690DB9008D1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E1C08C1C690DB9008D1019 /* Braintree PayPal Sample AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Braintree PayPal Sample AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E1C0901C690DB9008D1019 /* Braintree_PayPal_Sample_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Braintree_PayPal_Sample_AppUITests.m; sourceTree = "<group>"; };
+		44E1C0921C690DB9008D1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E1C09E1C690E85008D1019 /* paypal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paypal.jpg; sourceTree = "<group>"; };
+		700D9475E40A62028F5838ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3BF7C60068CDE175A1C1BD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E1C0651C690DB9008D1019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5E8A1C79E50897AE46EC21 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1C07E1C690DB9008D1019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1C0891C690DB9008D1019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C90C870FFA88756C21CC96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				700D9475E40A62028F5838ED /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E1C05F1C690DB9008D1019 = {
+			isa = PBXGroup;
+			children = (
+				44E1C06A1C690DB9008D1019 /* Braintree PayPal Sample App */,
+				44E1C0841C690DB9008D1019 /* Braintree PayPal Sample AppTests */,
+				44E1C08F1C690DB9008D1019 /* Braintree PayPal Sample AppUITests */,
+				44E1C0691C690DB9008D1019 /* Products */,
+				FFD7AD49D6395FF322C9A264 /* Pods */,
+				2C90C870FFA88756C21CC96D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44E1C0691C690DB9008D1019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E1C0681C690DB9008D1019 /* Braintree PayPal Sample App.app */,
+				44E1C0811C690DB9008D1019 /* Braintree PayPal Sample AppTests.xctest */,
+				44E1C08C1C690DB9008D1019 /* Braintree PayPal Sample AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E1C06A1C690DB9008D1019 /* Braintree PayPal Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				44E1C06E1C690DB9008D1019 /* AppDelegate.h */,
+				44E1C06F1C690DB9008D1019 /* AppDelegate.m */,
+				44E1C0711C690DB9008D1019 /* ViewController.h */,
+				44E1C0721C690DB9008D1019 /* ViewController.m */,
+				44E1C0741C690DB9008D1019 /* Main.storyboard */,
+				44E1C0771C690DB9008D1019 /* Assets.xcassets */,
+				44E1C0791C690DB9008D1019 /* LaunchScreen.storyboard */,
+				44E1C07C1C690DB9008D1019 /* Info.plist */,
+				44E1C09E1C690E85008D1019 /* paypal.jpg */,
+				44E1C06B1C690DB9008D1019 /* Supporting Files */,
+			);
+			path = "Braintree PayPal Sample App";
+			sourceTree = "<group>";
+		};
+		44E1C06B1C690DB9008D1019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E1C06C1C690DB9008D1019 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44E1C0841C690DB9008D1019 /* Braintree PayPal Sample AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E1C0851C690DB9008D1019 /* Braintree_PayPal_Sample_AppTests.m */,
+				44E1C0871C690DB9008D1019 /* Info.plist */,
+			);
+			path = "Braintree PayPal Sample AppTests";
+			sourceTree = "<group>";
+		};
+		44E1C08F1C690DB9008D1019 /* Braintree PayPal Sample AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44E1C0901C690DB9008D1019 /* Braintree_PayPal_Sample_AppUITests.m */,
+				44E1C0921C690DB9008D1019 /* Info.plist */,
+			);
+			path = "Braintree PayPal Sample AppUITests";
+			sourceTree = "<group>";
+		};
+		FFD7AD49D6395FF322C9A264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02116985F77B387194320D1F /* Pods.debug.xcconfig */,
+				CB3BF7C60068CDE175A1C1BD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E1C0671C690DB9008D1019 /* Braintree PayPal Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E1C0951C690DB9008D1019 /* Build configuration list for PBXNativeTarget "Braintree PayPal Sample App" */;
+			buildPhases = (
+				D2B53065105C1654A0156F4B /* Check Pods Manifest.lock */,
+				44E1C0641C690DB9008D1019 /* Sources */,
+				44E1C0651C690DB9008D1019 /* Frameworks */,
+				44E1C0661C690DB9008D1019 /* Resources */,
+				F0E7CE3792CE7DB9D497CEAE /* Embed Pods Frameworks */,
+				54BAC39DED4824723DE569EF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Braintree PayPal Sample App";
+			productName = "Braintree PayPal Sample App";
+			productReference = 44E1C0681C690DB9008D1019 /* Braintree PayPal Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E1C0801C690DB9008D1019 /* Braintree PayPal Sample AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E1C0981C690DB9008D1019 /* Build configuration list for PBXNativeTarget "Braintree PayPal Sample AppTests" */;
+			buildPhases = (
+				44E1C07D1C690DB9008D1019 /* Sources */,
+				44E1C07E1C690DB9008D1019 /* Frameworks */,
+				44E1C07F1C690DB9008D1019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E1C0831C690DB9008D1019 /* PBXTargetDependency */,
+			);
+			name = "Braintree PayPal Sample AppTests";
+			productName = "Braintree PayPal Sample AppTests";
+			productReference = 44E1C0811C690DB9008D1019 /* Braintree PayPal Sample AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44E1C08B1C690DB9008D1019 /* Braintree PayPal Sample AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E1C09B1C690DB9008D1019 /* Build configuration list for PBXNativeTarget "Braintree PayPal Sample AppUITests" */;
+			buildPhases = (
+				44E1C0881C690DB9008D1019 /* Sources */,
+				44E1C0891C690DB9008D1019 /* Frameworks */,
+				44E1C08A1C690DB9008D1019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E1C08E1C690DB9008D1019 /* PBXTargetDependency */,
+			);
+			name = "Braintree PayPal Sample AppUITests";
+			productName = "Braintree PayPal Sample AppUITests";
+			productReference = 44E1C08C1C690DB9008D1019 /* Braintree PayPal Sample AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E1C0601C690DB9008D1019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Orcun;
+				TargetAttributes = {
+					44E1C0671C690DB9008D1019 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					44E1C0801C690DB9008D1019 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9A3TTZETCF;
+						TestTargetID = 44E1C0671C690DB9008D1019;
+					};
+					44E1C08B1C690DB9008D1019 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9A3TTZETCF;
+						TestTargetID = 44E1C0671C690DB9008D1019;
+					};
+				};
+			};
+			buildConfigurationList = 44E1C0631C690DB9008D1019 /* Build configuration list for PBXProject "Braintree PayPal Sample App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44E1C05F1C690DB9008D1019;
+			productRefGroup = 44E1C0691C690DB9008D1019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E1C0671C690DB9008D1019 /* Braintree PayPal Sample App */,
+				44E1C0801C690DB9008D1019 /* Braintree PayPal Sample AppTests */,
+				44E1C08B1C690DB9008D1019 /* Braintree PayPal Sample AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E1C0661C690DB9008D1019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1C07B1C690DB9008D1019 /* LaunchScreen.storyboard in Resources */,
+				44E1C09F1C690E85008D1019 /* paypal.jpg in Resources */,
+				44E1C0781C690DB9008D1019 /* Assets.xcassets in Resources */,
+				44E1C0761C690DB9008D1019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1C07F1C690DB9008D1019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1C08A1C690DB9008D1019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54BAC39DED4824723DE569EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B53065105C1654A0156F4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E7CE3792CE7DB9D497CEAE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E1C0641C690DB9008D1019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1C0731C690DB9008D1019 /* ViewController.m in Sources */,
+				44E1C0701C690DB9008D1019 /* AppDelegate.m in Sources */,
+				44E1C06D1C690DB9008D1019 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1C07D1C690DB9008D1019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1C0861C690DB9008D1019 /* Braintree_PayPal_Sample_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E1C0881C690DB9008D1019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E1C0911C690DB9008D1019 /* Braintree_PayPal_Sample_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E1C0831C690DB9008D1019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E1C0671C690DB9008D1019 /* Braintree PayPal Sample App */;
+			targetProxy = 44E1C0821C690DB9008D1019 /* PBXContainerItemProxy */;
+		};
+		44E1C08E1C690DB9008D1019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E1C0671C690DB9008D1019 /* Braintree PayPal Sample App */;
+			targetProxy = 44E1C08D1C690DB9008D1019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44E1C0741C690DB9008D1019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E1C0751C690DB9008D1019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44E1C0791C690DB9008D1019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E1C07A1C690DB9008D1019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E1C0931C690DB9008D1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44E1C0941C690DB9008D1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E1C0961C690DB9008D1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02116985F77B387194320D1F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Braintree PayPal Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OKAppz.Braintree-PayPal-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44E1C0971C690DB9008D1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3BF7C60068CDE175A1C1BD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Braintree PayPal Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OKAppz.Braintree-PayPal-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44E1C0991C690DB9008D1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Braintree PayPal Sample AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OKAppz.Braintree-PayPal-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Braintree PayPal Sample App.app/Braintree PayPal Sample App";
+			};
+			name = Debug;
+		};
+		44E1C09A1C690DB9008D1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Braintree PayPal Sample AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OKAppz.Braintree-PayPal-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Braintree PayPal Sample App.app/Braintree PayPal Sample App";
+			};
+			name = Release;
+		};
+		44E1C09C1C690DB9008D1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Braintree PayPal Sample AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OKAppz.Braintree-PayPal-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Braintree PayPal Sample App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		44E1C09D1C690DB9008D1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Braintree PayPal Sample AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OKAppz.Braintree-PayPal-Sample-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Braintree PayPal Sample App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E1C0631C690DB9008D1019 /* Build configuration list for PBXProject "Braintree PayPal Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1C0931C690DB9008D1019 /* Debug */,
+				44E1C0941C690DB9008D1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E1C0951C690DB9008D1019 /* Build configuration list for PBXNativeTarget "Braintree PayPal Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1C0961C690DB9008D1019 /* Debug */,
+				44E1C0971C690DB9008D1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E1C0981C690DB9008D1019 /* Build configuration list for PBXNativeTarget "Braintree PayPal Sample AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1C0991C690DB9008D1019 /* Debug */,
+				44E1C09A1C690DB9008D1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E1C09B1C690DB9008D1019 /* Build configuration list for PBXNativeTarget "Braintree PayPal Sample AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E1C09C1C690DB9008D1019 /* Debug */,
+				44E1C09D1C690DB9008D1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E1C0601C690DB9008D1019 /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Braintree PayPal Sample App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>44E1C0671C690DB9008D1019</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44E1C0801C690DB9008D1019</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44E1C08B1C690DB9008D1019</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="MainViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Braintree PayPal Integration - SDKv4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtW-gW-s8i">
+                                <rect key="frame" x="0.0" y="20" width="375" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Kwb-cw-gYJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paypal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eDI-cf-aqH">
+                                <rect key="frame" x="67" y="158" width="240" height="246"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.85882352941176465" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PayPal T-Shirt - 2.32 USD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPT-yy-ibs">
+                                <rect key="frame" x="20" y="102" width="335" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="JMn-54-IXS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OtW-gW-s8i" firstAttribute="centerX" secondItem="qPT-yy-ibs" secondAttribute="centerX" id="2vd-wo-DQP"/>
+                            <constraint firstItem="OtW-gW-s8i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EPI-1d-u8g"/>
+                            <constraint firstItem="eDI-cf-aqH" firstAttribute="top" secondItem="qPT-yy-ibs" secondAttribute="bottom" constant="13" id="I3V-qN-Q4S"/>
+                            <constraint firstItem="qPT-yy-ibs" firstAttribute="top" secondItem="OtW-gW-s8i" secondAttribute="bottom" constant="41" id="KNO-5B-eUD"/>
+                            <constraint firstItem="eDI-cf-aqH" firstAttribute="centerX" secondItem="qPT-yy-ibs" secondAttribute="centerX" id="aQU-HZ-0NI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eDI-cf-aqH" secondAttribute="bottom" constant="263" id="gsc-EC-Zm3"/>
+                            <constraint firstItem="qPT-yy-ibs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="ld4-MA-z8A"/>
+                            <constraint firstItem="eDI-cf-aqH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="loZ-I7-VDW"/>
+                            <constraint firstItem="OtW-gW-s8i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rCt-3n-Cxh"/>
+                            <constraint firstAttribute="trailing" secondItem="OtW-gW-s8i" secondAttribute="trailing" id="zCI-wn-jqp"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="429.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paypal.jpg" width="350" height="350"/>
+    </resources>
+</document>
